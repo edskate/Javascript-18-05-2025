@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Three.</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Page Three.</h1>
+    <br>
+    <p id="preamble">This is page</p>
+
+    <script>
+        const content = window.preamble.textContent;
+        document.getElementById("preamble").innerHTML = content;
+        document.getElementById("preamble").style.color = "blue";
+        document.getElementById("preamble").style.fontSize = "20px";
+        document.getElementById("preamble").style.fontWeight = "bold";
+        document.getElementById("preamble").style.textAlign = "center";
+        document.getElementById("preamble").style.backgroundColor = "yellow";
+        document.getElementById("preamble").style.padding = "20px";
+        document.getElementById("preamble").style.textShadow = "-1px 1px 5px red";
+    </script>
+    <br>
+    <a href="index04.html">Previous Four.</a> <br>
+</body>
+</html>

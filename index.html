@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo HTML Javascript</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Este é um exemplo simples de página HTML e JavaScript.</p>
+    
+    <div id="mensagem"></div>
+
+    <script>
+        document.getElementById('mensagem').innerHTML = 'Esta mensagem foi escrita com JavaScript!';
+       document.getElementById('mensagem').style.color = 'blue';
+        document.getElementById('mensagem').style.fontSize = '20px';
+        document.getElementById('mensagem').style.fontWeight = 'bold';
+        document.getElementById('mensagem').style.textAlign = 'center';
+        document.getElementById('mensagem').style.backgroundColor = 'yellow';
+        document.getElementById('mensagem').style.padding = '20px';
+        document.getElementById('mensagem').style.textshadow = '-1px 1px 5px red';
+        document.getElementById('mensagem').style.border = '2px solid black';
+        document.getElementById('mensagem').style.borderRadius = '10px';
+        document.getElementById('mensagem').style.boxShadow = '5px 5px 10px gray';
+        document.getElementById('mensagem').style.transition = 'all 0.5s ease';
+        document.getElementById('mensagem').addEventListener('mouseover', function() {
+            this.style.transform = 'scale(1.1)';
+        });
+
+    </script>
+<a href="index01.html">Next Tree</a>
+</body>
+</html>
